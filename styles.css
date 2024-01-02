@@ -20,13 +20,11 @@ section{
 }
 
 .color-sec{
-    background-color: #aad7d9;
+    background-color: #e5e1da;
 }
 
-
-
 #home{
-    background-image: url("./assets/header-bg-v2.png");
+    background-image: url("./assets/header-bg-v21.png");
 }
 
 #header-text{
@@ -84,6 +82,21 @@ section{
     width: 630px;
 }
 
+.team-design{
+    word-spacing: 0.1em;
+    text-transform: uppercase;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.team-name{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1;
+}
+
 #port-header{
     font-family: 'Lora', serif;
     font-size: 47px;
@@ -110,6 +123,13 @@ section{
     width: 450px;
 }
 
+#stats-cash{
+    font-size: 3.2rem;
+    background: -webkit-linear-gradient(blue, skyblue);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 #cta-header{
     font-family: 'Lora', serif;
     font-size: 65px;
@@ -118,9 +138,21 @@ section{
 }
 
 #cta-para{
-    font-size: 17px;
+    position: relative;
+    top: 150px;
+    font-size: 18px;
     line-height: inherit;
     width: 450px;
+}
+
+#cta-email{
+    font-family: 'Courier Prime', monospace;
+    font-weight: 700;
+    position: relative;
+    top: 175px;
+    background-color: white;
+    color: black;
+    width: 200px;
 }
 
 input[type=text], select, textarea {
@@ -131,4 +163,4 @@ input[type=text], select, textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
-  }
+}
