@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    background-color: #fcfcfc;
+    background-color: #e5e1da;
 }
 
 body::-webkit-scrollbar{
@@ -24,7 +24,7 @@ section{
 }
 
 #home{
-    background-image: url("./assets/header-bg-v21.png");
+    background-image: linear-gradient(to right, #92c7cf, #e5e1da);
 }
 
 #header-text{
@@ -131,6 +131,10 @@ section{
     -webkit-text-fill-color: transparent;
 }
 
+#cta{
+    background-color: #92c7cf;
+}
+
 #cta-header{
     font-family: 'Lora', serif;
     font-size: 65px;
@@ -140,26 +144,27 @@ section{
 
 #cta-para{
     position: relative;
-    top: 150px;
-    font-size: 18px;
+    top: 125px;
+    font-size: 22px;
     line-height: inherit;
     width: 450px;
 }
 
 #cta-email{
     font-family: 'Courier Prime', monospace;
+    font-size: 18px;
     font-weight: 700;
     position: relative;
-    top: 175px;
-    background-color: white;
+    top: 150px;
+    background-color: #fbf9f1;
     color: black;
-    width: 200px;
+    width: 220px;
 }
 
 input[type=text], select, textarea {
     width: 100%;
-    background-color: #051650;
-    color: white;
+    background-color: #92c7cf;
+    color: #fbf9f1;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
